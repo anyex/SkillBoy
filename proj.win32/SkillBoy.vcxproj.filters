@@ -10,6 +10,12 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="工具">
+      <UniqueIdentifier>{4c12675b-d004-453f-845f-2828fa722a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工具\动画">
+      <UniqueIdentifier>{64b1f0ce-a76c-43ac-a4d4-4b5d169438e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActionTool.h">
+      <Filter>工具\动画</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
