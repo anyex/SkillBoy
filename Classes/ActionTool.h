@@ -7,6 +7,7 @@ USING_NS_CC;
 
 class ActionTool
 {
+public:
 	//static 类型的方法可以直接调用，不需要通过实例化对象
 
 	//创建帧动画

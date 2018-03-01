@@ -19,6 +19,9 @@
     <Filter Include="全局参数">
       <UniqueIdentifier>{1bc76ac3-b0a3-497a-b525-39ac4b456dee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="实体类">
+      <UniqueIdentifier>{23fda036-4a2e-454f-9d00-5bf4430297a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\ActionTool.cpp">
       <Filter>工具\动画</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero.cpp">
+      <Filter>实体类</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="GlobaDefine.h">
       <Filter>全局参数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero.h">
+      <Filter>实体类</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
