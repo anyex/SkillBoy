@@ -27,6 +27,9 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\ActionTool.cpp">
+      <Filter>工具\动画</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
