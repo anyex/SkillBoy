@@ -4,6 +4,7 @@
 USING_NS_CC;
 
 // 构造性方法
+//根据图片名称创建英雄
 void Hero::InitHeroSprite(char *hero_name, int m_iLevel)
 {
 	// 属性初始化

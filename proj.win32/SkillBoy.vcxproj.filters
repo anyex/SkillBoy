@@ -22,6 +22,15 @@
     <Filter Include="实体类">
       <UniqueIdentifier>{23fda036-4a2e-454f-9d00-5bf4430297a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="实体类\主角">
+      <UniqueIdentifier>{45799623-828c-4e96-bf26-b1229093f815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实体类\怪物">
+      <UniqueIdentifier>{95fc3848-3df5-419a-87dd-b887f54c0ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景类">
+      <UniqueIdentifier>{a255af0c-a646-43ea-a928-4cdb94d917c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -37,7 +46,10 @@
       <Filter>工具\动画</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Hero.cpp">
-      <Filter>实体类</Filter>
+      <Filter>实体类\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>实体类\怪物</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -60,7 +72,13 @@
       <Filter>全局参数</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Hero.h">
-      <Filter>实体类</Filter>
+      <Filter>实体类\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>实体类\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>场景类</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
